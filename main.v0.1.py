@@ -35,7 +35,7 @@ pg = st.navigation(
 )
 
 # --- SHARED ON ALL PAGES ---
-st.logo("assets/logo.png")
+st.logo("assets/pic1.JPG")
 st.sidebar.markdown(
     """
     <div style="text-align: center;">

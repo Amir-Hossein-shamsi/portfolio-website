@@ -1,7 +1,9 @@
 import streamlit as st
 import forms.contact as contact
+from utils import *
 
 
+b_profile=get_image_base64("assets/profile.jpg")
 
 @st.dialog("Contact Me")
 def show_contact_form():
@@ -9,7 +11,25 @@ def show_contact_form():
 
 col1,col2=st.columns(2,gap="small",vertical_alignment="center")
 with col1:
-    st.image("assets/profile.jpg",width=350)
+    # Use custom HTML to display the image without the zoom icon
+  st.markdown(
+    f"""
+    <style>
+    .no-zoom img {{
+        display: block;
+        margin: auto;
+        width: 450px;
+        height: auto;
+        border-left: 5px solid #630313;
+        border-radius: 5px;
+    }}
+    </style>
+    <div class="no-zoom">
+        <img src="data:image/png;base64,{b_profile}" alt="Profile Picture">
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 with col2:
     st.title("Amir Hossein Shamsi",anchor='false')
     st.write(

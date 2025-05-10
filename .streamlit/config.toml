@@ -1,0 +1,16 @@
+[theme]
+base = "light"  # or "light" for light mode
+primaryColor = "##46f207"    # Vibrant purple-blue for buttons/accent
+backgroundColor = "#311847" # Deep navy background
+secondaryBackgroundColor = "#1E293B" # Slightly lighter navy for widgets
+textColor = "#F8FAFC"       # Crisp white text
+font = "sans serif"         # Modern font stack
+
+# Advanced color options (available in Streamlit >=1.16)
+dangerColor = "#EF4444"     # Red for warning elements
+successColor = "#10B981"    # Green for positive indicators
+warningColor = "#F59E0B"    # Amber for warnings
+infoColor = "#3B82F6"  
+
+[client]
+toolbarMode = "minimal"
