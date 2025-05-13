@@ -58,18 +58,37 @@ st.write(
     """
 )
 
-# --- SKILLS ---
+# --- HARD SKILLS ---
 st.markdown("###")
 st.subheader("Hard Skills", anchor=False)
 st.write(
     """
-      -  Python (Django, Flask, FastAPI, PySide6, Pandas, NumPy, Selenium, PyQT)
-      -  Go (Fiber, Gin)
-      -  Docker and Docker Compose
-      -  Retrieval-Augmented Generation (RAG)
-      -  LangChain
-      -  Typescript (NestJS, Express, Fastify)
-      -  SQL-based and NoSQL-based Databases
-      -  LPIC-1 & LPIC-2  
+      ⚪  Python (Flask, FastAPI, Django)\n
+      ⚪  LLM (Hugging Face, OpenAI, LangChain)\n
+      ⚪  Retrieval-Augmented Generation (RAG) and Fine-tuning\n
+      ⚪  Tesseract OCR and EasyOCR\n
+      ⚪  Machine Learning (Scikit-learn, TensorFlow, Keras)\n
+      ⚪  Web Scraping (BeautifulSoup, Scrapy, Selenium)\n
+      ⚪  PyQt6\n
+      ⚪  Go (Fiber, Gin)\n
+      ⚪  Docker and Docker Compose\n
+      ⚪  Typescript (NestJS, Express, Fastify)\n
+      ⚪  SQL-based and NoSQL-based Databases\n
+      ⚪  LPIC-1 & LPIC-2\n
     """
-)       
+)   
+
+# --- SOFT SKILLS ---
+st.markdown("###")
+st.subheader("Soft Skills", anchor=False)
+st.write(
+    """
+      💠 Effective communication and collaboration in team environments\n
+      💠 Strong problem-solving and critical thinking abilities\n
+      💠 Adaptability to new technologies and methodologies\n
+      💠 Time management and ability to meet deadlines\n
+      💠 Attention to detail and commitment to quality\n
+      💠 Creativity and innovation in software solutions\n
+      💠 Continuous learning and self-improvement\n 
+    """
+)           

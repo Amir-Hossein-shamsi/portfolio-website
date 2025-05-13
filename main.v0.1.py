@@ -18,11 +18,15 @@ sales_dashbord = st.Page(
     title="Projects",
     icon=":material/bar_chart:",
 )
-chat_bot = st.Page(
-    "views/chatbot.py",
-    title="Chat Bot",
-    icon=":material/smart_toy:",
+
+youtbe_transcrip = st.Page(
+    "views/youtube-transcrip.py",
+    title="Youtube Translator",
+    icon=":material/movie_creation:",
+    
 )
+# ----page Config ----
+
 st.set_page_config(page_title="Dashboard", page_icon="🏞️", layout="wide", initial_sidebar_state="expanded")
 
 # ------Navigation page -----
@@ -30,7 +34,7 @@ st.set_page_config(page_title="Dashboard", page_icon="🏞️", layout="wide", i
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [sales_dashbord, chat_bot],
+        "Projects": [sales_dashbord,youtbe_transcrip],
     }
 )
 
