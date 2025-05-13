@@ -60,7 +60,7 @@ Welcome to my interactive **Streamlit Portfolio Dashboard**, a modern and respon
 
 ## 📸 Screenshots
 
-![Dashboard UI](assets/project.png)
+![Dashboard UI](assets/sampel.png)
 
 ---
 
