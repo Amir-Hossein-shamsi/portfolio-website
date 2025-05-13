@@ -36,7 +36,7 @@ Welcome to my interactive **Streamlit Portfolio Dashboard**, a modern and respon
   - ✅ Experience & Qualifications
   - 🛠️ Technical Skills
 
-### 📊 `sales_dashboard.py`
+### 📊 `projects.py`
 
 - Renders a grid of your personal and open-source projects
 - Each card includes:
